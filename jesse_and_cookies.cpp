@@ -23,7 +23,6 @@ int main(){
         pq.pop();
         pq.push(2*second+first);
         cmpt++;
-        if (pq.top()>k){break;}
         if ((pq.size()==1 && pq.top()<k)||pq.empty()){cmpt=-1;break;}
     }
     cout <<cmpt<<endl;
